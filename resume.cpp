@@ -1,4 +1,3 @@
-//  C PROGRAM TO DIPLAYING TEXT IN DIFFERENT SIZE, DIFFERENT COLOR AND DIFFERENT FONT STYLE BY USING outtextxy(), settextstyle() FUNCTION,setcolor() FUNCTION
 #include <graphics.h>
 #include <conio.h>
 
@@ -50,12 +49,6 @@ int main()
     outtextxy(50, 485, "3. Selected for e-Toys Hackathon 2023 conducted by CDAC NOIDA");
     settextstyle(4, HORIZ_DIR, 1);
     setcolor(BLACK);
-    // all Different color and Different Font Style
-    
-
-    
-
-
     getch();
     closegraph();
     return 0;
